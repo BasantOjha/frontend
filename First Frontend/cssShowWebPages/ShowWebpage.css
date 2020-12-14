@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+header{
+	background-image: url(../ShowWebPages.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+h1{
+	text-decoration: none;
+	color: #474B57;
+	padding: 10px 40px;
+	border: 2px solid text-decoration;
+}
+ul{
+	list-style-type: none;
+	margin-top: 25px;
+	margin-left: 20px;
+	size: 30px;
+}
+ul li{
+display: table-row;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 40px;
+	border: 2px solid text-decoration;
+	font-size:  40px;
+}
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+.main{
+	max-width: 1500px;
+	margin-right: auto;
+}
+.title{
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+a{
+	color: #3F6AFF;
+}

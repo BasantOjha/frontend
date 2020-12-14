@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>Contact Form</title>
+		<link rel="stylesheet" href="cssContact/style.css"/>
+	</head>
+	<body bgcolor="silver">
+		<h1><u>FILL IN THE FORM </u></h1>
+
+		<form name="messageForm" onsubmit="validateForm()" align="center">
+			<p>First name: <input type="text" name="firstname"></p>
+			<p>Last name: <input type="text" name="lastname"></p>
+			<p>E-mail: <input type="text" name="email"></p>
+			<p>Gender: <input type="radio" name="gender" value="male" checked> Male 
+			<input type="radio" name="gender" value="female"> Female
+			<input type="radio" name="gender" value="rather not say"> Rather not say </p>
+			<p>Message: <br><br><textarea name="message" rows="10" cols="30" placeholder="Enter Message"></textarea></p>
+			<p><input type="submit" value="Submit"></p>
+		</form>
+		<script>
+			function validateForm() {
+				var fname = document.forms["messageForm"]["firstname"].value;
+				var lname = document.forms["messageForm"]["lastname"].value;
+				var Email = document.forms["messageForm"]["email"].value;
+				var gender = document.forms["messageForm"]["gender"].value;
+				var message = document.forms["messageForm"]["message"].value;
+
+				if (fname == "" || lname == "" || Email == "" || message == ""){
+					alert("Empty fields found. Please fill the form.");
+				}
+				else {
+					alert("Thank you for your feedback.");
+				}
+			}
+		</script>
+		<h4><a href="Website.html" align="center"> << Go Back << </a></h4>
+	</body>
+</html>

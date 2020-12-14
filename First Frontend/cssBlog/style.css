@@ -1,0 +1,52 @@
+/* Add a gray background color with some padding */
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #A0A4B1;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 10px;
+    font-size: 35px;
+    text-align: center;
+    background: white;
+}
+
+.leftcolumn {
+    flex: 75%;
+}
+
+.rightcolumn {
+    flex: 25%;
+	padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 0px;
+}
+
+/* Add a card effect for articles */
+.card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+}
+
+.row {
+    display: flex;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+a{
+    color: #3F6AFF;
+}

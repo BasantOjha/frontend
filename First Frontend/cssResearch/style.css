@@ -1,0 +1,42 @@
+body{
+	background-color: #EDF2EF;
+
+}
+.container{
+	background-color: white;
+	width: 1200px;
+	border: 1px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header{
+	text-align: center;
+	background-color: #CCE1D2;
+	color: #242725
+	padding: 10px;
+	font-size: 20px;
+}
+.content{
+	padding: 10px;
+}
+.nav{
+	float: left;
+	width: 200px;
+}
+.main{
+	float: right;
+	width: 900px;
+}
+.footer{
+	clear: both;
+	text-align: center;
+	background-color: #CCE1D2;
+	color: #242725
+	padding: 10px;
+}
+ol{
+	color: blue;
+}
+a{
+	color: #3F6AFF;
+}
